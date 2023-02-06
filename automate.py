@@ -10,9 +10,8 @@ def main():
     target_name = "Weekly-Training-Log"
     generate_csv(client_id, client_secret, period = 7, filename = csv_name)
     upload_csv("./activities/" + csv_name, target_name)
+    
     sheets_link = "LINK_TO_TARGET_SHEET"
-
-
     sender = "xxxx@gmail.com"
     filename = "./training_notes/xxxxx.txt"
     recipients = ["xxxxx@gmail.edu", "zzzzzz@gmail.edu"]
